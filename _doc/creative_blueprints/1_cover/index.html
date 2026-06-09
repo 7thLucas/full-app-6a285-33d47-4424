@@ -1,0 +1,62 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait  .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left  { width: 52%; }
+.mode-landscape .sl-right { width: 48%; }
+.mode-portrait  .sl-left  { height: 55%; }
+.mode-portrait  .sl-right { flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: editorial content -->
+    <div class="sl-left flex flex-col justify-between p-12">
+
+      <!-- Brand tag -->
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full" style="background:#E8317B"></span>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#7B5EA7">Fan Platform · ILLIT</span>
+      </div>
+
+      <!-- Headline block -->
+      <div>
+        <h1 class="font-black leading-tight tracking-tight text-slate-900" style="font-size:3.75rem;line-height:1.05">
+          Never Miss<br>
+          <span style="color:#E8317B">a Moment.</span>
+        </h1>
+        <p class="mt-5 text-base leading-relaxed text-slate-500" style="max-width:22rem">
+          The ultimate fan platform for ILLIT followers — comebacks, schedules, member profiles, and a live community feed, all in one place.
+        </p>
+        <div class="mt-7 flex items-center gap-3">
+          <div class="h-px w-6" style="background:#E8317B"></div>
+          <span class="text-xs font-medium tracking-wide text-slate-400">Schedules · News · Members · Community</span>
+        </div>
+        <!-- Tier badges -->
+        <div class="mt-6 flex gap-2">
+          <span class="text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:#E8317B">Free</span>
+          <span class="text-xs font-semibold px-3 py-1 rounded-full" style="background:#F5F0FF;color:#7B5EA7">Premium</span>
+        </div>
+      </div>
+
+      <!-- Attribution placeholder -->
+      <data-attribution />
+    </div>
+
+    <!-- Right: visual -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=K-pop%20girl%20group%20ILLIT%20dreamy%20editorial%20stage%20lights%20pink%20purple%20pastel%20bokeh%20fan%20concert%20glamour%20fashion"
+        alt="ILLIT editorial visual"
+        class="w-full h-full object-cover"
+      />
+      <!-- Soft left fade into white -->
+      <div class="absolute inset-y-0 left-0 w-24" style="background:linear-gradient(to right,white,transparent)"></div>
+      <!-- Brand badge -->
+      <div class="absolute bottom-10 right-10 bg-white rounded-2xl shadow-md px-5 py-2">
+        <span class="font-black tracking-widest" style="font-size:1.1rem;color:#E8317B;letter-spacing:0.18em">ILLIT HUB</span>
+      </div>
+    </div>
+
+  </div>
+</section>
