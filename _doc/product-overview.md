@@ -9,7 +9,7 @@
 ILLIT fans have no centralized platform to track comebacks, member schedules, and connect with each other. Information is fragmented across X (Twitter), Instagram, Weverse, and fan blogs — meaning fans constantly miss updates, duplicate effort finding information, and lack a real community hub.
 
 ## The Solution
-ILLIT Hub is a dedicated fan platform that consolidates everything in one place: comeback and activity schedules, curated fan news, member profiles, and a live community feed — so fans never miss a moment and always feel connected.
+ILLIT Hub is a dedicated fan platform that consolidates everything in one place: comeback and activity schedules, curated fan news, member profiles, and a live community feed — so fans never miss an Illitt moment and always feel connected.
 
 ## Target Audience
 - **Primary**: Active ILLIT fans worldwide who follow comebacks closely
