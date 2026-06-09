@@ -23,12 +23,12 @@ export type TDefaultConfigurableData = {
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "FILL_APP_NAME_HERE",
-  logoUrl: "FILL_LOGO_URL_HERE",
+  appName: "ILLIT Hub",
+  logoUrl: "https://client-api-stag.quantumbyte.ai/uploads/dt366mms/4424/assets/6698a7b0-f486-40eb-8126-40c6f353670d_1781030949036_17bay7.png",
   brandColor: {
-    primary: "FILL_PRIMARY_COLOR_HERE",
-    secondary: "FILL_SECONDARY_COLOR_HERE",
-    accent: "FILL_ACCENT_COLOR_HERE",
+    primary: "#E8317B",
+    secondary: "#7B5EA7",
+    accent: "#FFD6E7",
   },
   // ─────────────────────────────────────────────────────────────────────
   // Add new field defaults here. See RULES.md §5 for per-type shape.
