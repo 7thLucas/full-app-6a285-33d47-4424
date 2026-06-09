@@ -24,7 +24,7 @@ ILLIT Hub is a dedicated fan platform that consolidates everything in one place:
 5. **Notification Center** — alerts for upcoming comebacks, schedules, and breaking news
 
 ## Key Benefits
-- **Never miss a moment**: All ILLIT activity in one real-time feed
+- **Never miss an Illitt moment**: All ILLIT activity in one real-time feed
 - **Fandom connection**: A single hub replaces 5+ apps and social tabs
 - **Fan-first experience**: Built around what fans actually care about, not algorithm-driven content
 - **Global reach**: Supports international fans with clean, accessible design
