@@ -1,0 +1,87 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait  .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left  { width: 50%; }
+.mode-landscape .sl-right { width: 50%; }
+.mode-portrait  .sl-left  { flex: 1; }
+.mode-portrait  .sl-right { flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: The Problem (dark card) -->
+    <div class="sl-left flex flex-col justify-between p-12" style="background:#1E293B">
+
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#E8317B">The Problem</span>
+        <h2 class="mt-3 font-black text-white leading-tight" style="font-size:1.85rem">
+          Being an ILLIT fan means juggling five platforms at once.
+        </h2>
+      </div>
+
+      <div class="space-y-5">
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white" style="background:#E8317B">1</span>
+          <p class="text-sm leading-relaxed" style="color:#CBD5E1">
+            Comeback dates, schedule updates, and news are scattered across X, Instagram, Weverse, and fan blogs — fans constantly miss what matters.
+          </p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white" style="background:#7B5EA7">2</span>
+          <p class="text-sm leading-relaxed" style="color:#CBD5E1">
+            No single source for member profiles, official schedules, or curated fan news — fans duplicate effort searching across tabs and apps.
+          </p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="mt-0.5 shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-white" style="background:#E8317B">3</span>
+          <p class="text-sm leading-relaxed" style="color:#CBD5E1">
+            No real community hub — the fandom is split across algorithm-driven social feeds with no dedicated, fan-first space to connect.
+          </p>
+        </div>
+      </div>
+
+      <div></div>
+    </div>
+
+    <!-- Right: The Solution -->
+    <div class="sl-right flex flex-col gap-5 p-12">
+
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#7B5EA7">The Solution</span>
+        <h2 class="mt-3 font-black text-slate-900 leading-tight" style="font-size:1.85rem">
+          ILLIT Hub — one home for every fan, every update, every moment.
+        </h2>
+        <p class="mt-3 text-sm leading-relaxed text-slate-500">
+          A dedicated platform that consolidates everything ILLIT fans care about — real-time schedules, curated news, member spotlights, and a moderated community space — so no fan ever falls behind.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <div class="flex gap-3 items-center rounded-xl px-4 py-3" style="background:#FFF0F5">
+          <span class="text-lg">📅</span>
+          <span class="text-sm font-medium text-slate-700">Live comeback &amp; event calendar — always up to date</span>
+        </div>
+        <div class="flex gap-3 items-center rounded-xl px-4 py-3" style="background:#F5F0FF">
+          <span class="text-lg">📰</span>
+          <span class="text-sm font-medium text-slate-700">Curated fan news feed — community + official, in real time</span>
+        </div>
+        <div class="flex gap-3 items-center rounded-xl px-4 py-3" style="background:#F0F4FF">
+          <span class="text-lg">👥</span>
+          <span class="text-sm font-medium text-slate-700">Moderated community space — fan-first, distraction-free</span>
+        </div>
+      </div>
+
+      <!-- Supporting visual -->
+      <div class="flex-1 rounded-2xl overflow-hidden min-h-0">
+        <img
+          src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=clean%20minimal%20fan%20platform%20mobile%20app%20UI%20pink%20white%20aesthetic%20K-pop%20schedule%20tracker%20organized%20dashboard%20community%20feed"
+          alt="ILLIT Hub interface"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+    </div>
+
+  </div>
+</section>
